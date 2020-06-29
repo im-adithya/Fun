@@ -18,7 +18,7 @@ header, footer {
 body {
     font-family: 'creative', 'Source Sans Pro', sans-serif;
     font-size: 25px;
-    background-image: url(https://raw.githubusercontent.com/im-adithya/Fun/master/Pawar%20bhaiya/cover.png);
+    background-image: url('https://raw.githubusercontent.com/im-adithya/Fun/master/Pawar%20bhaiya/cover.png');
     background-repeat: no-repeat;
     background-size: auto;
     
