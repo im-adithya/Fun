@@ -517,7 +517,8 @@ span {
 
 @media (max-width: 500px) {
   body{
-    background-image: url('https://raw.githubusercontent.com/im-adithya/Fun/master/Pawar%20bhaiya/mobile%20cover.png');
+    background-image: url('https://svgshare.com/i/MV1.svg');
+    background-size: 100vw 110vh;
   }
   
   .logo{
