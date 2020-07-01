@@ -1,0 +1,55 @@
+@font-face{
+    font-family: "creative";
+    src: url(./CREABBRG.TTF);
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(47, 31, 73);
+    font-family: 'creative';
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+    background-image: linear-gradient(to right, #360366, black);
+    border-bottom: 1px solid rgb(87, 180, 241);
+}
+
+.logo{
+    width: 60vw;
+
+}
+
+.logo-img {
+    -webkit-filter: drop-shadow(2px 2px 13px #4b88a0);
+    filter: drop-shadow(2px 2px 13px #4b88a0);
+}
+
+main > img {
+    width: 93vw;
+    height: auto;
+    display: block;
+    margin: 40px auto;
+}
+
+.content {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+    .content{
+        font-size:18px
+    }
+}

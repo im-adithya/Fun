@@ -1,0 +1,81 @@
+@font-face{
+    font-family: "creative";
+    src: url(./CREABBRG.TTF);
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #58b5ff;
+    font-family: 'creative';
+  }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+    background-image: linear-gradient(to right, #2196F3, rgb(255, 255, 255));
+    border-bottom: 1px solid #ffffff;
+}
+
+.logo{
+    width: 60vw;
+
+}
+
+.logo-img {
+    -webkit-filter: drop-shadow(2px 2px 13px #ffffff);
+    filter: drop-shadow(2px 2px 13px #ffffff);
+}
+
+.bm{
+    height: 88vh;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.one{
+    display: block;
+    margin:0px 0px 0px 60vw;
+    height: 50vh;
+    width: auto;
+}
+
+.two{
+    display: block;
+    margin:0px 0px 0px 10vw;
+    height: 50vh;
+    width: auto;
+}
+
+.three{
+    display: block;
+    margin:0px 0px 20px 40vw;
+    height: 40vh;
+    width: auto;
+}
+
+@media (max-width: 500px) {
+    .content{
+        font-size:18px
+    }
+
+    .bm{
+        width: 80vw;
+        height:auto
+    }
+
+    .one,.two,.three{
+        width: 80vw;
+        height: auto;
+        margin: 30px auto;
+    }
+}

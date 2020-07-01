@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+@font-face{
+    font-family: "creative";
+    src: url(./CREABBRG.TTF);
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(255, 180, 70);
+    font-family: 'creative';
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+    background-image: linear-gradient(to right, #ff9800, rgb(255, 255, 255));
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.logo{
+    width: 60vw;
+
+}
+
+.logo-img {
+    -webkit-filter: drop-shadow(2px 2px 13px #ffffff);
+    filter: drop-shadow(2px 2px 13px #ffffff);
+}
+
+main > img {
+    width: 93vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+.content {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.messages{
+    text-align: center;
+    padding: 30px
+}
+
+.title {
+    color : #2a3eba;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.mess{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.invitation {
+    color: black;
+    font-family: 'Parisienne';
+    text-align:center;
+    font-size: 30px;
+    background-image: linear-gradient(to right, #ffffff3d, #ffffff3d );
+    padding: 20px 0px;
+}
